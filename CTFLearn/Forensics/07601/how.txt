@@ -1,0 +1,5 @@
+unzip -l 2570
+strings I\ Warned\ You.jpeg | grep flag
+
+
+ABCTF{Du$t1nS_D0jo}1r

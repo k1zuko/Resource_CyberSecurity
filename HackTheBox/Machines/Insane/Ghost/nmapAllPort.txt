@@ -1,0 +1,1 @@
+# Nmap 7.95 scan initiated Thu Sep 26 12:36:44 2024 as: nmap -sCV -p- -T4 -oN nmapAllPort.txt 10.10.11.24

@@ -1,0 +1,4 @@
+#!/bin/bash
+ssh ctf-player@titan.picoctf.net -p 62619
+# 83dcefb7 for password
+# picoCTF{s3cur3_c0nn3ct10n_8969f7d3}

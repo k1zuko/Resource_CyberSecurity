@@ -1,0 +1,253 @@
+Windows Security Logs
+=================
+
+Event ID: 4624
+Date: 2024-10-06 09:00:00
+User: normaluser
+Logon Type: 2
+Source Network Address: 192.168.1.20
+Event: Successful login to the system.
+
+Event ID: 4634
+Date: 2024-10-06 09:10:00
+User: normaluser
+Event: Logoff.
+
+Event ID: 4648
+Date: 2024-10-06 09:15:00
+User: normaluser
+Event: A logon was attempted using explicit credentials.
+
+Event ID: 4625
+Date: 2024-10-06 09:20:00
+User: normaluser
+Event: Failed login attempt to the system.
+
+Event ID: 4624
+Date: 2024-10-06 09:25:00
+User: normaluser
+Logon Type: 2
+Source Network Address: 192.168.1.20
+Event: Successful login to the system.
+
+Event ID: 4634
+Date: 2024-10-06 09:30:00
+User: normaluser
+Event: Logoff.
+
+Event ID: 4624
+Date: 2024-10-06 09:35:00
+User: normaluser
+Logon Type: 3
+Source Network Address: 192.168.1.20
+Event: Successful network logon.
+
+Event ID: 4647
+Date: 2024-10-06 09:40:00
+User: normaluser
+Event: User initiated logoff.
+
+Event ID: 4625
+Date: 2024-10-06 09:45:00
+User: normaluser
+Event: Failed login attempt to the system.
+
+Event ID: 4663
+Date: 2024-10-06 09:50:00
+User: normaluser
+Event: An attempt was made to access an object.
+
+Event ID: 4624
+Date: 2024-10-07 10:00:00
+User: agus
+Logon Type: 2
+Source Network Address: 192.168.1.10
+Event: Successful login to the system.
+
+Event ID: 4672
+Date: 2024-10-07 10:05:12
+User: agus
+Event: Special privileges assigned to new logon.
+
+Event ID: 4624
+Date: 2024-10-07 10:10:00
+User: agus
+Logon Type: 2
+Source Network Address: 192.168.1.10
+Event: Successful login to the system.
+
+Event ID: 4625
+Date: 2024-10-07 10:15:20
+User: unknown
+Event: Failed login attempt to the system.
+
+Event ID: 4648
+Date: 2024-10-07 10:20:30
+User: agus
+Event: A logon was attempted using explicit credentials.
+
+Event ID: 4663
+Date: 2024-10-07 10:25:45
+User: agus
+Event: An attempt was made to access an object (LSASS).
+
+Event ID: 4634
+Date: 2024-10-07 10:30:00
+User: agus
+Event: Logoff.
+
+Event ID: 4624
+Date: 2024-10-07 10:35:10
+User: agus
+Logon Type: 3
+Source Network Address: 192.168.1.10
+Event: Successful network logon.
+
+Event ID: 4670
+Date: 2024-10-07 10:40:15
+User: agus
+Event: Permissions on an object were changed.
+
+Event ID: 4647
+Date: 2024-10-07 10:45:20
+User: agus
+Event: User initiated logoff.
+
+
+Sysmon Logs
+==========
+
+Event ID: 1
+Date: 2024-10-06 09:00:00
+Process: notepad.exe
+User: normaluser
+Command Line: "C:\Windows\notepad.exe"
+Image: C:\Windows\notepad.exe
+Event: Process creation.
+
+Event ID: 10
+Date: 2024-10-06 09:10:00
+User: normaluser
+Process: explorer.exe
+Event: File created: C:\Users\normaluser\Documents\report.docx
+
+Event ID: 7
+Date: 2024-10-06 09:15:00
+User: normaluser
+Event: Process terminated: notepad.exe
+
+Event ID: 8
+Date: 2024-10-06 09:20:00
+User: normaluser
+Event: Access to explorer.exe with PID 1234
+
+Event ID: 1
+Date: 2024-10-06 09:25:00
+Process: chrome.exe
+User: normaluser
+Command Line: "C:\Program Files\Google\Chrome\Application\chrome.exe"
+Image: C:\Program Files\Google\Chrome\Application\chrome.exe
+Event: Process creation.
+
+Event ID: 10
+Date: 2024-10-06 09:30:00
+User: normaluser
+Process: notepad.exe
+Event: File created: C:\Users\normaluser\Documents\notes.txt
+
+Event ID: 7
+Date: 2024-10-06 09:35:00
+User: normaluser
+Event: Process terminated: chrome.exe
+
+Event ID: 8
+Date: 2024-10-06 09:40:00
+User: normaluser
+Event: Access to notepad.exe with PID 5678
+
+Event ID: 1
+Date: 2024-10-06 09:45:00
+Process: calc.exe
+User: normaluser
+Command Line: "C:\Windows\System32\calc.exe"
+Image: C:\Windows\System32\calc.exe
+Event: Process creation.
+
+Event ID: 10
+Date: 2024-10-06 09:50:00
+User: normaluser
+Process: winword.exe
+Event: File created: C:\Users\normaluser\Documents\presentation.pptx
+
+Event ID: 1
+Date: 2024-10-07 10:35:00
+Process: Mimikatz.exe
+User: agus
+Command Line: "C:\Tools\Mimikatz\mimikatz.exe"
+Image: C:\Tools\Mimikatz\mimikatz.exe
+Event: Process creation.
+
+Event ID: 10
+Date: 2024-10-07 10:35:05
+User: agus
+Process: lsass.exe
+Event: File created: C:\Windows\System32\lsass.exe
+
+Event ID: 7
+Date: 2024-10-07 10:35:10
+User: agus
+Event: Process terminated: Mimikatz.exe
+
+Event ID: 8
+Date: 2024-10-07 10:35:12
+User: agus
+Event: Access to lsass.exe with PID 2345
+
+Event ID: 1
+Date: 2024-10-07 10:35:20
+Process: powershell.exe
+User: agus
+Command Line: "powershell.exe -ExecutionPolicy Bypass -Command Get-Process"
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Event: Process creation.
+
+
+Memory Dump
+===========
+
+[Memory Dump - Sample Output]
+Process: Mimikatz.exe
+PID: 6789
+User: agus
+Command Line: "C:\Tools\Mimikatz\mimikatz.exe"
+Loaded Modules:
+- C:\Windows\System32\lsass.exe
+- C:\Tools\Mimikatz\mimikatz.exe
+- C:\Windows\System32\kernel32.dll
+- C:\Windows\System32\ntdll.dll
+
+Credential Data Found:
+- Username: victim
+- Password: P@ssw0rd123
+- NTLM Hash: A1B2C3D4E5F6G7H8I9J0K1L2M3N4
+
+[Memory Dump - Sample Output]
+Process: explorer.exe
+PID: 1234
+User: normaluser
+Command Line: "C:\Windows\explorer.exe"
+Loaded Modules:
+- C:\Windows\System32\explorer.exe
+- C:\Windows\System32\shell32.dll
+- C:\Windows\System32\user32.dll
+
+Credential Data Found: None
+
+Process: chrome.exe
+PID: 5678
+User: normaluser
+Command Line: "C:\Program Files\Google\Chrome\Application\chrome.exe"
+Loaded Modules:
+- C:\Program Files\Google\Chrome\Application\chrome.exe
+- C:\Program Files\Google\Chrome
+

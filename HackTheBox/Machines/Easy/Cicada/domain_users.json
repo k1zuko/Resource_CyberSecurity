@@ -1,0 +1,871 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2024-10-02 13:16:10.989128+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Emily Oscars"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2024-08-29 21:48:05+00:00",
+            "2024-08-28 17:26:07+00:00",
+            "2024-08-28 17:15:28+00:00",
+            "2024-08-22 21:20:17+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Emily Oscars"
+        ],
+        "distinguishedName": [
+            "CN=Emily Oscars,CN=Users,DC=cicada,DC=htb"
+        ],
+        "givenName": [
+            "Emily"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-10-02 13:16:16.231415+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-10-02 12:49:01.286003+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Remote Management Users,CN=Builtin,DC=cicada,DC=htb",
+            "CN=Backup Operators,CN=Builtin,DC=cicada,DC=htb"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "Emily Oscars"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{fffda747-80e7-454c-8c37-67023a45f252}"
+        ],
+        "objectSid": [
+            "S-1-5-21-917908876-1423158569-3159038727-1601"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2024-08-22 21:20:17.303713+00:00"
+        ],
+        "sAMAccountName": [
+            "emily.oscars"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Oscars"
+        ],
+        "uSNChanged": [
+            196707
+        ],
+        "uSNCreated": [
+            90173
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "emily.oscars@cicada.htb"
+        ],
+        "whenChanged": [
+            "2024-10-02 12:49:01+00:00"
+        ],
+        "whenCreated": [
+            "2024-08-22 21:20:17+00:00"
+        ]
+    },
+    "dn": "CN=Emily Oscars,CN=Users,DC=cicada,DC=htb"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2024-10-02 13:22:33.085411+00:00"
+        ],
+        "badPwdCount": [
+            12
+        ],
+        "cn": [
+            "David Orelious"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2024-08-28 17:25:57+00:00",
+            "2024-08-22 17:39:38+00:00",
+            "2024-03-14 18:15:31+00:00",
+            "2024-03-14 17:29:56+00:00",
+            "1601-07-14 22:41:04+00:00"
+        ],
+        "description": [
+            "Just in case I forget my password is aRt$Lp#7t*VQ!3"
+        ],
+        "distinguishedName": [
+            "CN=David Orelious,CN=Users,DC=cicada,DC=htb"
+        ],
+        "givenName": [
+            "David"
+        ],
+        "initials": [
+            "D"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-03-15 06:32:21.999264+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-03-15 06:32:21.999264+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "David Orelious"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{c0fdb4bc-0ca8-43aa-a649-0b82ff609257}"
+        ],
+        "objectSid": [
+            "S-1-5-21-917908876-1423158569-3159038727-1108"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2024-03-14 12:17:29.513847+00:00"
+        ],
+        "sAMAccountName": [
+            "david.orelious"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Orelious"
+        ],
+        "uSNChanged": [
+            122945
+        ],
+        "uSNCreated": [
+            20569
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "david.orelious@cicada.htb"
+        ],
+        "whenChanged": [
+            "2024-08-28 17:25:57+00:00"
+        ],
+        "whenCreated": [
+            "2024-03-14 12:17:29+00:00"
+        ]
+    },
+    "dn": "CN=David Orelious,CN=Users,DC=cicada,DC=htb"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Michael Wrightson"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2024-08-28 17:26:22+00:00",
+            "2024-08-22 17:39:38+00:00",
+            "2024-03-14 18:15:31+00:00",
+            "2024-03-14 17:29:56+00:00",
+            "1601-07-14 22:41:04+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Michael Wrightson,CN=Users,DC=cicada,DC=htb"
+        ],
+        "givenName": [
+            "Michael"
+        ],
+        "initials": [
+            "M"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-10-02 13:16:34.541876+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "Michael Wrightson"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{d2fbf0b9-93c6-4f75-ade4-cba7c929049c}"
+        ],
+        "objectSid": [
+            "S-1-5-21-917908876-1423158569-3159038727-1106"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2024-03-14 12:17:29.373764+00:00"
+        ],
+        "sAMAccountName": [
+            "michael.wrightson"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Wrightson"
+        ],
+        "uSNChanged": [
+            196749
+        ],
+        "uSNCreated": [
+            20557
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "michael.wrightson@cicada.htb"
+        ],
+        "whenChanged": [
+            "2024-10-02 13:16:34+00:00"
+        ],
+        "whenCreated": [
+            "2024-03-14 12:17:29+00:00"
+        ]
+    },
+    "dn": "CN=Michael Wrightson,CN=Users,DC=cicada,DC=htb"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2024-10-02 13:15:46.926588+00:00"
+        ],
+        "badPwdCount": [
+            2
+        ],
+        "cn": [
+            "Sarah Dantelia"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2024-08-28 17:26:29+00:00",
+            "2024-08-22 17:39:38+00:00",
+            "2024-03-14 18:15:31+00:00",
+            "2024-03-14 17:29:56+00:00",
+            "1601-07-14 22:41:04+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Sarah Dantelia,CN=Users,DC=cicada,DC=htb"
+        ],
+        "givenName": [
+            "Sarah"
+        ],
+        "initials": [
+            "S"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "Sarah Dantelia"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{fe3ffec6-db8a-4ca6-b648-0415245be49c}"
+        ],
+        "objectSid": [
+            "S-1-5-21-917908876-1423158569-3159038727-1105"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2024-03-14 12:17:29.310232+00:00"
+        ],
+        "sAMAccountName": [
+            "sarah.dantelia"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Dantelia"
+        ],
+        "uSNChanged": [
+            122953
+        ],
+        "uSNCreated": [
+            20551
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "sarah.dantelia@cicada.htb"
+        ],
+        "whenChanged": [
+            "2024-08-28 17:26:29+00:00"
+        ],
+        "whenCreated": [
+            "2024-03-14 12:17:29+00:00"
+        ]
+    },
+    "dn": "CN=Sarah Dantelia,CN=Users,DC=cicada,DC=htb"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2024-10-02 13:17:14.520353+00:00"
+        ],
+        "badPwdCount": [
+            1
+        ],
+        "cn": [
+            "John Smoulder"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2024-08-28 17:26:15+00:00",
+            "2024-08-22 17:39:38+00:00",
+            "2024-03-14 18:15:31+00:00",
+            "2024-03-14 17:29:56+00:00",
+            "1601-07-14 22:41:04+00:00"
+        ],
+        "distinguishedName": [
+            "CN=John Smoulder,CN=Users,DC=cicada,DC=htb"
+        ],
+        "givenName": [
+            "John"
+        ],
+        "initials": [
+            "J"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "John Smoulder"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{769f6eca-2739-4cb2-b080-717748b39aa8}"
+        ],
+        "objectSid": [
+            "S-1-5-21-917908876-1423158569-3159038727-1104"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2024-03-14 12:17:29.183817+00:00"
+        ],
+        "sAMAccountName": [
+            "john.smoulder"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Smoulder"
+        ],
+        "uSNChanged": [
+            122949
+        ],
+        "uSNCreated": [
+            20545
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "john.smoulder@cicada.htb"
+        ],
+        "whenChanged": [
+            "2024-08-28 17:26:15+00:00"
+        ],
+        "whenCreated": [
+            "2024-03-14 12:17:28+00:00"
+        ]
+    },
+    "dn": "CN=John Smoulder,CN=Users,DC=cicada,DC=htb"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2024-10-02 13:08:50.052465+00:00"
+        ],
+        "badPwdCount": [
+            4
+        ],
+        "cn": [
+            "krbtgt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2024-08-22 17:39:38+00:00",
+            "2024-03-14 18:15:31+00:00",
+            "2024-03-14 17:29:56+00:00",
+            "2024-03-14 12:16:48+00:00",
+            "1601-01-01 00:00:02+00:00"
+        ],
+        "description": [
+            "Key Distribution Center Service Account"
+        ],
+        "distinguishedName": [
+            "CN=krbtgt,CN=Users,DC=cicada,DC=htb"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,OU=Group,DC=cicada,DC=htb"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "krbtgt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{c0e20544-ef07-4083-ade4-dc6a68d0d292}"
+        ],
+        "objectSid": [
+            "S-1-5-21-917908876-1423158569-3159038727-502"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2024-03-14 11:14:10.395300+00:00"
+        ],
+        "sAMAccountName": [
+            "krbtgt"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "kadmin/changepw"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "uSNChanged": [
+            20534
+        ],
+        "uSNCreated": [
+            12324
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "whenChanged": [
+            "2024-03-14 12:16:48+00:00"
+        ],
+        "whenCreated": [
+            "2024-03-14 11:14:10+00:00"
+        ]
+    },
+    "dn": "CN=krbtgt,CN=Users,DC=cicada,DC=htb"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2024-10-02 13:06:40.973476+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2024-08-28 17:26:56+00:00",
+            "2024-08-22 17:39:38+00:00",
+            "2024-03-14 18:15:31+00:00",
+            "2024-03-14 17:29:56+00:00",
+            "1601-07-14 22:41:04+00:00"
+        ],
+        "description": [
+            "Built-in account for guest access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Guest,CN=Users,DC=cicada,DC=htb"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-10-02 13:06:58.629820+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-10-02 12:49:59.207994+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=cicada,DC=htb"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{685c67b4-3d65-498c-a7b3-ea23a28c3422}"
+        ],
+        "objectSid": [
+            "S-1-5-21-917908876-1423158569-3159038727-501"
+        ],
+        "primaryGroupID": [
+            514
+        ],
+        "pwdLastSet": [
+            "2024-08-28 17:26:56.662374+00:00"
+        ],
+        "sAMAccountName": [
+            "Guest"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            196708
+        ],
+        "uSNCreated": [
+            8197
+        ],
+        "userAccountControl": [
+            66080
+        ],
+        "whenChanged": [
+            "2024-10-02 12:49:59+00:00"
+        ],
+        "whenCreated": [
+            "2024-03-14 11:09:25+00:00"
+        ]
+    },
+    "dn": "CN=Guest,CN=Users,DC=cicada,DC=htb"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2024-08-30 20:37:40.247190+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Administrator"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2024-08-29 21:48:05+00:00",
+            "2024-08-28 17:26:37+00:00",
+            "2024-08-28 17:26:35+00:00",
+            "2024-08-22 17:39:38+00:00",
+            "1602-01-24 08:40:32+00:00"
+        ],
+        "description": [
+            "Built-in account for administering the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrator,CN=Users,DC=cicada,DC=htb"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-10-02 12:48:05.910988+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-09-23 16:06:01.200766+00:00"
+        ],
+        "logonCount": [
+            109
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=Group Policy Creator Owners,OU=Group,DC=cicada,DC=htb",
+            "CN=Domain Admins,OU=Group,DC=cicada,DC=htb",
+            "CN=Enterprise Admins,OU=Group,DC=cicada,DC=htb",
+            "CN=Schema Admins,OU=Group,DC=cicada,DC=htb",
+            "CN=Administrators,CN=Builtin,DC=cicada,DC=htb"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "Administrator"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{0e5579f0-b732-4434-9fc7-a8658ae9e87a}"
+        ],
+        "objectSid": [
+            "S-1-5-21-917908876-1423158569-3159038727-500"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2024-08-26 20:08:03.186878+00:00"
+        ],
+        "sAMAccountName": [
+            "Administrator"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            188492
+        ],
+        "uSNCreated": [
+            8196
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2024-09-23 16:06:01+00:00"
+        ],
+        "whenCreated": [
+            "2024-03-14 11:09:25+00:00"
+        ]
+    },
+    "dn": "CN=Administrator,CN=Users,DC=cicada,DC=htb"
+}]

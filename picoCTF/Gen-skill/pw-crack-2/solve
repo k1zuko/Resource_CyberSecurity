@@ -1,0 +1,8 @@
+open python
+>> chr(0x33) + chr(0x39) + chr(0x63) + chr(0x65)
+39ce # pw
+
+python level2.py
+	use pw
+
+picoCTF{tr45h_51ng1ng_502ec42e}

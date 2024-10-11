@@ -1,0 +1,14 @@
+Oct  3 10:15:30 server1 sshd[1234]: Accepted password for user1 from 192.168.1.10 port 22 ssh2
+Oct  3 10:15:35 server1 sshd[1234]: pam_unix(sshd:session): session opened for user user1 by (uid=0)
+Oct  3 10:15:40 server1 sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/bash
+Oct  3 10:15:45 server1 sshd[1234]: Received disconnect from 192.168.1.10 port 22:11: Bye Bye
+Oct  3 10:15:50 server1 CRON[1235]: (user1) CMD (rm -rf /home/user1/sensitive_file.txt)
+Oct  3 10:15:55 server1 sshd[1236]: Accepted password for user2 from 192.168.1.10 port 22 ssh2
+Oct  3 10:16:00 server1 sshd[1236]: pam_unix(sshd:session): session opened for user user2 by (uid=0)
+Oct  3 10:16:05 server1 sshd[1236]: Received disconnect from 192.168.1.10 port 22:11: Bye Bye
+Oct  3 10:16:10 server1 sshd[1237]: Accepted password for user3 from 192.168.1.10 port 22 ssh2
+Oct  3 10:16:15 server1 sshd[1237]: pam_unix(sshd:session): session opened for user user3 by (uid=0)
+Oct  3 10:16:20 server1 sshd[1238]: pam_unix(sshd:session): session closed for user user3
+Oct  3 10:16:30 server1 sshd[1239]: Accepted password for user1 from 192.168.1.10 port 22 ssh2
+Oct  3 10:16:35 server1 sudo: user1 : TTY=pts/1 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/scp kredensial.txt user2@192.168.1.11:/home/user2/
+Oct  3 10:16:40 server1 sshd[1240]: Received disconnect from 192.168.1.10 port 22:11: Bye Bye

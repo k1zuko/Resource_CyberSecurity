@@ -1,0 +1,1 @@
+to web => register => intercept with burp in dashboard page OTP => in burp, POST OTP: remove a line otp

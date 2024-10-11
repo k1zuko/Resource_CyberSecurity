@@ -1,0 +1,6 @@
+crack password user di file id_rsa
+
+ssh2john id_rsa > id_rsa.hash
+john id_rsa.hash -w=rockyou.txt
+
+sunshine1

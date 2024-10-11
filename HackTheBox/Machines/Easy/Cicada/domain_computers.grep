@@ -1,0 +1,2 @@
+cn	sAMAccountName	dNSHostName	operatingSystem	operatingSystemServicePack	operatingSystemVersion	lastLogon	userAccountControl	whenCreated	objectSid	description
+CICADA-DC	CICADA-DC$	CICADA-DC.cicada.htb	Windows Server 2022 Standard		10.0 (20348)	10/02/24 12:48:07	SERVER_TRUST_ACCOUNT, TRUSTED_FOR_DELEGATION	03/14/24 11:14:09	S-1-5-21-917908876-1423158569-3159038727-1000	

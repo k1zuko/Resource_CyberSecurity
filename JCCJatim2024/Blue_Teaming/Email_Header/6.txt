@@ -1,0 +1,16 @@
+Return-Path: <jono@bianglalasakti.com>
+Received: from bianglalasakti.com (bainglalagroup.com [198.51.100.25])
+    by mailgateway.perusahaanku.com with ESMTP id A1B2C3D4E5
+    for <indah@ perusahaanku.com>; Tue, 3 Oct 2024 12:34:56 +0700 (WIB)
+Received: from localhost (localhost [127.0.0.1])
+    by bianglalasakti.com (Postfix) with ESMTP id 1234ABCD
+    for <indah@ perusahaanku.com>; Tue, 3 Oct 2024 12:34:55 +0700 (WIB)
+Message-ID: <9876XYZ@bianglalasakti.com>
+From: HRD Perusahaan <hrd@perusahaanku.com>
+Reply-To: HRD Perusahaan <hrd@perusahaanku.com>
+To: <indah@perusahaanku.com>
+Subject: Peringatan terakhir! Data Anda dalam bahaya! Login berhasil!
+Date: Tue, 3 Oct 2024 12:34:54 +0700
+Content-Type: text/html; charset=UTF-8
+MIME-Version: 1.0
+X-Mailer: PHP/7.4.16

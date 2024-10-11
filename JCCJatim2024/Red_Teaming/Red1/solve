@@ -1,0 +1,6 @@
+password untuk membuka pdf
+
+pdf2john secret.pdf > secret.hash
+john secret.hash -w=rockyou.txt
+
++=+=123mollyk

@@ -1,0 +1,3 @@
+hidden file akan menampilkan password untuk pdf
+
+ABCTF{T3Rm1n4l_is_C00l}

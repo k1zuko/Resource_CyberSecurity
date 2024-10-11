@@ -1,0 +1,8 @@
+# Nmap 7.95 scan initiated Fri Oct  4 10:56:16 2024 as: nmap -p 631 -T4 -sU -oN unmap.txt 10.10.11.40
+Nmap scan report for jsn.jaringanku (10.10.11.40)
+Host is up (0.47s latency).
+
+PORT    STATE         SERVICE
+631/udp open|filtered ipp
+
+# Nmap done at Fri Oct  4 10:56:19 2024 -- 1 IP address (1 host up) scanned in 3.21 seconds

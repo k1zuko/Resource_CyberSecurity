@@ -1,0 +1,5 @@
+exif, binwalk tidak bekerja... pakai stegseek
+
+stegseek -wl rockyou.txt apple.jpeg
+
+0b5ba19ad3f77462b202e1088b6e9081

@@ -1,0 +1,2 @@
+use strings
+CTFlearn{fl4ggyfl4g}

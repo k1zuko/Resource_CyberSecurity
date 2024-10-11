@@ -1,0 +1,320 @@
+Event ID: 4624
+User: DOMAIN\User1
+Date: 03/Oct/2024
+Time: 13:00:01
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User1
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User1
+Date: 03/Oct/2024
+Time: 13:30:05
+Description: An account was logged off.
+Account Name: DOMAIN\User1
+Logon ID: 0x4B1
+
+Event ID: 4720
+User: DOMAIN\Admin
+Date: 03/Oct/2024
+Time: 14:01:10
+Description: A user account was created.
+Account Name: new_user
+Account Domain: DOMAIN
+Logon ID: 0x3E7
+
+Event ID: 4726
+User: DOMAIN\Admin
+Date: 03/Oct/2024
+Time: 14:02:20
+Description: A user account was deleted.
+Account Name: old_user
+Account Domain: DOMAIN
+Logon ID: 0x3E7
+
+Event ID: 4624
+User: DOMAIN\User2
+Date: 03/Oct/2024
+Time: 14:05:30
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User2
+Logon Type: 2
+
+Event ID: 4624
+User: DOMAIN\User3
+Date: 03/Oct/2024
+Time: 14:06:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User3
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User2
+Date: 03/Oct/2024
+Time: 14:06:30
+Description: An account was logged off.
+Account Name: DOMAIN\User2
+Logon ID: 0x4B2
+
+Event ID: 4624
+User: DOMAIN\User4
+Date: 03/Oct/2024
+Time: 14:07:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User4
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User3
+Date: 03/Oct/2024
+Time: 14:08:00
+Description: An account was logged off.
+Account Name: DOMAIN\User3
+Logon ID: 0x4B3
+
+Event ID: 4624
+User: DOMAIN\User5
+Date: 03/Oct/2024
+Time: 14:09:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User5
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User4
+Date: 03/Oct/2024
+Time: 14:10:00
+Description: An account was logged off.
+Account Name: DOMAIN\User4
+Logon ID: 0x4B4
+
+Event ID: 4720
+User: DOMAIN\User5
+Date: 03/Oct/2024
+Time: 14:11:00
+Description: A user account was created.
+Account Name: temp_user
+Account Domain: DOMAIN
+Logon ID: 0x3E7
+
+Event ID: 4726
+User: DOMAIN\User5
+Date: 03/Oct/2024
+Time: 14:12:00
+Description: A user account was deleted.
+Account Name: temp_user
+Account Domain: DOMAIN
+Logon ID: 0x3E7
+
+Event ID: 4624
+User: DOMAIN\User1
+Date: 03/Oct/2024
+Time: 14:13:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User1
+Logon Type: 2
+
+Event ID: 4624
+User: DOMAIN\User2
+Date: 03/Oct/2024
+Time: 14:14:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User2
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User1
+Date: 03/Oct/2024
+Time: 14:15:00
+Description: An account was logged off.
+Account Name: DOMAIN\User1
+Logon ID: 0x4B5
+
+Event ID: 4720
+User: SYSTEM
+Date: 03/Oct/2024
+Time: 14:15:30
+Description: A user account was created.
+Account Name: adminitrator
+Account Domain: WORKGROUP
+Logon ID: 0x3E7
+
+Event ID: 4624
+User: DOMAIN\User3
+Date: 03/Oct/2024
+Time: 14:16:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User3
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User5
+Date: 03/Oct/2024
+Time: 14:17:00
+Description: An account was logged off.
+Account Name: DOMAIN\User5
+Logon ID: 0x4B6
+
+Event ID: 4624
+User: DOMAIN\User4
+Date: 03/Oct/2024
+Time: 14:18:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User4
+Logon Type: 2
+
+Event ID: 4624
+User: DOMAIN\User2
+Date: 03/Oct/2024
+Time: 14:19:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User2
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User3
+Date: 03/Oct/2024
+Time: 14:20:00
+Description: An account was logged off.
+Account Name: DOMAIN\User3
+Logon ID: 0x4B7
+
+Event ID: 4624
+User: DOMAIN\User5
+Date: 03/Oct/2024
+Time: 14:21:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User5
+Logon Type: 2
+
+Event ID: 4720
+User: DOMAIN\Admin
+Date: 03/Oct/2024
+Time: 14:22:00
+Description: A user account was created.
+Account Name: test_user
+Account Domain: DOMAIN
+Logon ID: 0x3E7
+
+Event ID: 4726
+User: DOMAIN\Admin
+Date: 03/Oct/2024
+Time: 14:23:00
+Description: A user account was deleted.
+Account Name: test_user
+Account Domain: DOMAIN
+Logon ID: 0x3E7
+
+Event ID: 4624
+User: DOMAIN\User1
+Date: 03/Oct/2024
+Time: 14:24:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User1
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User2
+Date: 03/Oct/2024
+Time: 14:25:00
+Description: An account was logged off.
+Account Name: DOMAIN\User2
+Logon ID: 0x4B8
+
+Event ID: 4624
+User: DOMAIN\User3
+Date: 03/Oct/2024
+Time: 14:26:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User3
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User4
+Date: 03/Oct/2024
+Time: 14:27:00
+Description: An account was logged off.
+Account Name: DOMAIN\User4
+Logon ID: 0x4B9
+
+Event ID: 4624
+User: adminitrator
+Date: 03/Oct/2024
+Time: 14:27:12
+Description: An account was successfully logged on.
+Account Name: adminitrator
+Logon Type: 10
+
+Event ID: 4624
+User: DOMAIN\User5
+Date: 03/Oct/2024
+Time: 14:28:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User5
+Logon Type: 2
+
+Event ID: 4720
+User: DOMAIN\User1
+Date: 03/Oct/2024
+Time: 14:29:00
+Description: A user account was created.
+Account Name: user_temp
+Account Domain: DOMAIN
+Logon ID: 0x3E7
+
+Event ID: 4634
+User: adminitrator
+Date: 03/Oct/2024
+Time: 14:29:01
+Description: An account was logged off.
+Account Name: adminitrator
+Logon ID: 0x3E7
+
+Event ID: 4726
+User: DOMAIN\User1
+Date: 03/Oct/2024
+Time: 14:30:00
+Description: A user account was deleted.
+Account Name: user_temp
+Account Domain: DOMAIN
+Logon ID: 0x3E7
+
+Event ID: 4624
+User: DOMAIN\User1
+Date: 03/Oct/2024
+Time: 14:31:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User1
+Logon Type: 2
+
+Event ID: 4634
+User: DOMAIN\User2
+Date: 03/Oct/2024
+Time: 14:32:00
+Description: An account was logged off.
+Account Name: DOMAIN\User2
+Logon ID: 0x4B0
+
+Event ID: 4624
+User: DOMAIN\User3
+Date: 03/Oct/2024
+Time: 14:33:00
+Description: An account was successfully logged on.
+Account Name: DOMAIN\User3
+Logon Type: 2
+
+Event ID: 4780
+User: SYSTEM
+Date: 03/Oct/2024
+Time: 14:34:10
+Description: The ACL was set on account.
+Account Name: adminitrator
+Logon ID: 0x3E7
+
+Event ID: 4634
+User: DOMAIN\User4
+Date: 03/Oct/2024
+Time: 14:43:00
+Description: An account was logged off.
+Account Name: DOMAIN\User4
+Logon ID: 0x4B1

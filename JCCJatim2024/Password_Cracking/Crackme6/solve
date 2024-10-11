@@ -1,0 +1,9 @@
+untuk crack, hapus dulu nama usernya
+
+hashcat -m 100 -a 0 account.txt rockyou.txt
+	kalau sudah pernah dicrack tinggal --show
+
+user04 = salah
+user05 = benar (mungkin menurut indeks, user04 urutan 3, sedangkan user05 urutan 4)
+
+0273523756monkeylove

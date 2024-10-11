@@ -1,0 +1,2 @@
+git show
+-flag{protect_your_git}

@@ -1,0 +1,7 @@
+strings .. | grep CTF
+
+CTFlearn{CTFIsEasy!!!} >> gabisa coy
+
+bawahnya ada kode base64
+
+CTFlearn{SkiBanff}

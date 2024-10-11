@@ -1,0 +1,6 @@
+hitung jumlah bit id_rsa
+
+openssl rsa -in id_rsa -text -noout
+	masukkan password tadi...
+
+4096

@@ -1,0 +1,3 @@
+use strings or exiftool
+❯ strings RubberDuck.jpg | grep CTF
+CTFlearn{ILoveJakarta}

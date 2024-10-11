@@ -1,0 +1,37 @@
+12:11:02.301 [HTTP] SRC: 192.168.1.20 DST: 203.0.113.20 Method: GET URL: http://example.com/index.html Response: 200 OK
+12:11:03.120 [DNS] SRC: 192.168.1.10 DST: 203.0.113.10 Query: dXNlcm5hbWU9am9obi5kb2U=.pepayamanggapisangjambu.com TYPE: A
+12:11:03.145 [DNS] SRC: 192.168.1.10 DST: 203.0.113.10 Query: cGFzc3dvcmQ9c2VjdXJlcGFzczEyMw==.pepayamanggapisangjambu.com TYPE: A
+12:11:03.168 [DNS] SRC: 192.168.1.10 DST: 203.0.113.10 Query: dXNlcm5hbWU9YWRtaW4uc2VydmVyMTIz==.pepayamanggapisangjambu.com TYPE: A
+12:11:04.159 [HTTPS] SRC: 192.168.1.30 DST: 203.0.113.25 Method: POST URL: https://securebank.com/login Response: 302 Redirect
+12:11:06.034 [SSH] SRC: 192.168.1.15 DST: 203.0.113.30 User: john_doe Authentication: Success
+12:11:07.078 [FTP] SRC: 192.168.1.45 DST: 203.0.113.40 Command: STOR Filename: file.txt Response: 226 Transfer Complete
+12:11:08.231 [DNS] SRC: 192.168.1.50 DST: 8.8.8.8 Query: google.com TYPE: A
+12:11:09.099 [DNS] SRC: 192.168.1.10 DST: 203.0.113.10 Query: ZGJhZG1pbjpTZWNyM3RQQFNTVzBSRC4K.pepayamanggapisangjambu.com TYPE: A
+12:11:09.402 [DNS] SRC: 192.168.1.60 DST: 8.8.4.4 Query: yahoo.com TYPE: A
+12:11:10.123 [ICMP] SRC: 192.168.1.70 DST: 203.0.113.50 Type: Echo Request
+12:11:11.256 [SMTP] SRC: 192.168.1.80 DST: 203.0.113.60 Subject: Meeting Update Status: Delivered
+12:11:12.159 [HTTP] SRC: 192.168.1.90 DST: 203.0.113.70 Method: GET URL: http://news.com/headlines.html Response: 200 OK
+12:11:13.008 [NTP] SRC: 192.168.1.95 DST: 203.0.113.80 Request: Time Sync
+12:11:14.067 [HTTPS] SRC: 192.168.1.22 DST: 203.0.113.90 Method: GET URL: https://online-shop.com/cart Response: 200 OK
+12:11:15.102 [SSH] SRC: 192.168.1.35 DST: 203.0.113.100 User: admin Authentication: Failed
+12:11:16.183 [FTP] SRC: 192.168.1.55 DST: 203.0.113.110 Command: LIST Response: 150 Opening ASCII mode
+12:11:17.290 [DNS] SRC: 192.168.1.40 DST: 8.8.8.8 Query: bing.com TYPE: A
+12:11:18.078 [DNS] SRC: 192.168.1.10 DST: 203.0.113.10 Query: YWRtaW46MGt0b0JFUjJAMjQK.pepayamanggapisangjambu.com TYPE: A
+12:11:18.378 [DNS] SRC: 192.168.1.65 DST: 8.8.4.4 Query: facebook.com TYPE: A
+12:11:19.129 [ICMP] SRC: 192.168.1.85 DST: 203.0.113.120 Type: Echo Reply
+12:11:20.402 [SMTP] SRC: 192.168.1.70 DST: 203.0.113.130 Subject: Invoice Sent Status: Delivered
+12:11:21.309 [HTTP] SRC: 192.168.1.28 DST: 203.0.113.140 Method: GET URL: http://sports.com/scoreboard Response: 200 OK
+12:11:22.178 [NTP] SRC: 192.168.1.60 DST: 203.0.113.150 Request: Time Sync
+12:11:23.065 [HTTPS] SRC: 192.168.1.75 DST: 203.0.113.160 Method: POST URL: https://banking.com/transfer Response: 200 OK
+12:11:24.243 [SSH] SRC: 192.168.1.85 DST: 203.0.113.170 User: jane_doe Authentication: Success
+12:11:25.189 [FTP] SRC: 192.168.1.95 DST: 203.0.113.180 Command: RETR Filename: backup.zip Response: 226 Transfer Complete
+12:11:26.372 [DNS] SRC: 192.168.1.105 DST: 8.8.8.8 Query: amazon.com TYPE: A
+12:11:26.386 [DNS] SRC: 192.168.1.10 DST: 203.0.113.10 Query: YWppbWFzOktpdEBiaXNhazF0NFBBU1RJYjE1YSEK.pepayamanggapisangjambu.com TYPE: A
+12:11:27.056 [DNS] SRC: 192.168.1.115 DST: 8.8.4.4 Query: twitter.com TYPE: A
+12:11:28.087 [ICMP] SRC: 192.168.1.125 DST: 203.0.113.190 Type: Echo Request
+12:11:29.101 [SMTP] SRC: 192.168.1.135 DST: 203.0.113.200 Subject: Conference Invite Status: Delivered
+12:11:30.098 [HTTP] SRC: 192.168.1.145 DST: 203.0.113.210 Method: GET URL: http://weather.com/today.html Response: 200 OK
+12:11:31.034 [NTP] SRC: 192.168.1.155 DST: 203.0.113.220 Request: Time Sync
+12:11:32.108 [HTTPS] SRC: 192.168.1.165 DST: 203.0.113.230 Method: GET URL: https://streaming.com/watch Response: 200 OK
+
+

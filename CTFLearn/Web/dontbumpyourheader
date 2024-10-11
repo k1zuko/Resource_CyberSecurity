@@ -1,0 +1,3 @@
+❯ curl http://165.227.106.113/header.php -A "Sup3rS3cr3tAg3nt" -e "awesomesauce.com"
+Here is your flag: flag{did_this_m3ss_with_y0ur_h34d}
+<!-- Sup3rS3cr3tAg3nt  -->

@@ -1,0 +1,3 @@
+put qrcode in cyberchef, then use parse qr code, from base64 and affine decoder a=1 b=13
+
+flag is : n0_body_f0rget_qr_code

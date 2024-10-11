@@ -1,0 +1,176 @@
+[{
+    "attributes": {
+        "auditingPolicy": [
+            "\u0000\u0001"
+        ],
+        "creationTime": [
+            "2024-10-02 12:47:14.332853+00:00"
+        ],
+        "dSASignature": [
+            {
+                "encoded": "AQAAACgAAAAAAAAAAAAAAAAAAAAAAAAAtjbkfJKCAEWhotWA90BBVw==",
+                "encoding": "base64"
+            }
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "dc": [
+            "cicada"
+        ],
+        "distinguishedName": [
+            "DC=cicada,DC=htb"
+        ],
+        "fSMORoleOwner": [
+            "CN=NTDS Settings,CN=CICADA-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "forceLogoff": [
+            -9223372036854775808
+        ],
+        "gPLink": [
+            "[LDAP://cn={2480865A-F9E0-4995-B568-987D80F2ADEF},cn=policies,cn=system,DC=cicada,DC=htb;2][LDAP://CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=cicada,DC=htb;2]"
+        ],
+        "instanceType": [
+            5
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lockOutObservationWindow": [
+            "0:30:00"
+        ],
+        "lockoutDuration": [
+            "0:30:00"
+        ],
+        "lockoutThreshold": [
+            0
+        ],
+        "masteredBy": [
+            "CN=NTDS Settings,CN=CICADA-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "maxPwdAge": [
+            "42 days, 0:00:00"
+        ],
+        "minPwdAge": [
+            "1 day, 0:00:00"
+        ],
+        "minPwdLength": [
+            7
+        ],
+        "modifiedCount": [
+            1
+        ],
+        "modifiedCountAtLastProm": [
+            0
+        ],
+        "ms-DS-MachineAccountQuota": [
+            10
+        ],
+        "msDS-AllUsersTrustQuota": [
+            1000
+        ],
+        "msDS-Behavior-Version": [
+            7
+        ],
+        "msDS-ExpirePasswordsOnSmartCardOnlyAccounts": [
+            true
+        ],
+        "msDS-IsDomainFor": [
+            "CN=NTDS Settings,CN=CICADA-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "msDS-NcType": [
+            0
+        ],
+        "msDS-PerUserTrustQuota": [
+            1
+        ],
+        "msDS-PerUserTrustTombstonesQuota": [
+            10
+        ],
+        "msDs-masteredBy": [
+            "CN=NTDS Settings,CN=CICADA-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "nTMixedDomain": [
+            0
+        ],
+        "name": [
+            "cicada"
+        ],
+        "nextRid": [
+            1000
+        ],
+        "objectCategory": [
+            "CN=Domain-DNS,CN=Schema,CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "objectClass": [
+            "top",
+            "domain",
+            "domainDNS"
+        ],
+        "objectGUID": [
+            "{526effb7-04d9-4e71-8652-2afafc5fd8e0}"
+        ],
+        "objectSid": [
+            "S-1-5-21-917908876-1423158569-3159038727"
+        ],
+        "otherWellKnownObjects": [
+            "B:32:683A24E2E8164BD3AF86AC3C2CF3F981:CN=Keys,DC=cicada,DC=htb",
+            "B:32:1EB93889E40C45DF9F0C64D23BBB6237:CN=Managed Service Accounts,DC=cicada,DC=htb"
+        ],
+        "pwdHistoryLength": [
+            24
+        ],
+        "pwdProperties": [
+            1
+        ],
+        "rIDManagerReference": [
+            "CN=RID Manager$,CN=System,DC=cicada,DC=htb"
+        ],
+        "replUpToDateVector": [
+            {
+                "encoded": "AgAAAAAAAAAPAAAAAAAAAN5vZApGs2FKkbS2vn0tk60d8AEAAAAAAKtQ4RwDAAAAsGlMKikniEul6SOacTX3liRgAgAAAAAAcoriHAMAAAAVEr0qoVwfSLOjDOjAth0NHOABAAAAAACh6N8cAwAAAK+qLDkO3fdHs0uyaQVVn44fEAIAAAAAAAV64RwDAAAAoRpkRIF5+k6gSstx/68wzh4AAgAAAAAAQF3hHAMAAADfPuBSRuVkT7grPo1jAYz4I1ACAAAAAACLj+EcAwAAACgtU1ayzflFtZ3q0oF+cIcr0AIAAAAAAAzG4hwDAAAAtjbkfJKCAEWhotWA90BBVwrAAAAAAAAAc97XHAMAAADzTP2JCyr4R5Ai973ExkVtJoACAAAAAAAasOIcAwAAANACjpAlX+BPlnJ3kA3WzA4uAAMAAAAAANDRDR0DAAAAaE50s3GvQU2f3LXEBUNbOheQAQAAAAAAkmXdHAMAAABOhOrW0R+zS6sNX5zDhlReGbABAAAAAACrcN0cAwAAAG/Jlt6JXiNHim7BjVkd0x4qwAIAAAAAAL2/4hwDAAAA4aRP7N9o9EavuLlkyz+M2BVwAQAAAAAAh4vZHAMAAAAwB2//SgRuSoX2Di5jYB6RLOACAAAAAACZIgIdAwAAAA==",
+                "encoding": "base64"
+            }
+        ],
+        "serverState": [
+            1
+        ],
+        "subRefs": [
+            "DC=DomainDnsZones,DC=cicada,DC=htb",
+            "DC=ForestDnsZones,DC=cicada,DC=htb",
+            "CN=Configuration,DC=cicada,DC=htb"
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uASCompat": [
+            0
+        ],
+        "uSNChanged": [
+            196664
+        ],
+        "uSNCreated": [
+            4099
+        ],
+        "wellKnownObjects": [
+            "B:32:6227F0AF1FC2410D8E3BB10615BB5B0F:CN=NTDS Quotas,DC=cicada,DC=htb",
+            "B:32:F4BE92A4C777485E878E9421D53087DB:CN=Microsoft,CN=Program Data,DC=cicada,DC=htb",
+            "B:32:09460C08AE1E4A4EA0F64AEE7DAA1E5A:CN=Program Data,DC=cicada,DC=htb",
+            "B:32:22B70C67D56E4EFB91E9300FCA3DC1AA:CN=ForeignSecurityPrincipals,DC=cicada,DC=htb",
+            "B:32:18E2EA80684F11D2B9AA00C04F79F805:CN=Deleted Objects,DC=cicada,DC=htb",
+            "B:32:2FBAC1870ADE11D297C400C04FD8D5CD:CN=Infrastructure,DC=cicada,DC=htb",
+            "B:32:AB8153B7768811D1ADED00C04FD8D5CD:CN=LostAndFound,DC=cicada,DC=htb",
+            "B:32:AB1D30F3768811D1ADED00C04FD8D5CD:CN=System,DC=cicada,DC=htb",
+            "B:32:A361B2FFFFD211D1AA4B00C04FD7D83A:OU=Domain Controllers,DC=cicada,DC=htb",
+            "B:32:AA312825768811D1ADED00C04FD8D5CD:CN=Computers,DC=cicada,DC=htb",
+            "B:32:A9D1CA15768811D1ADED00C04FD8D5CD:CN=Users,DC=cicada,DC=htb"
+        ],
+        "whenChanged": [
+            "2024-10-02 12:47:14+00:00"
+        ],
+        "whenCreated": [
+            "2024-03-14 11:09:13+00:00"
+        ]
+    },
+    "dn": "DC=cicada,DC=htb"
+}]

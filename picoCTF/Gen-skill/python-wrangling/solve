@@ -1,0 +1,5 @@
+
+python ende.py -d flag.txt.enc 
+	use pw.txt for password
+
+picoCTF{4p0110_1n_7h3_h0us3_aa821c16}

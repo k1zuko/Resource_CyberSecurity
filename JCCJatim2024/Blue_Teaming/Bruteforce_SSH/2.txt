@@ -1,0 +1,40 @@
+Oct  2 10:15:01 ubuntu sshd[2001]: Accepted password for user1 from 192.168.0.12 port 54321 ssh2
+Oct  2 10:15:01 ubuntu sshd[2001]: pam_unix(sshd:session): session opened for user user1 by (uid=0)
+Oct  2 10:16:15 ubuntu sshd[2001]: pam_unix(sshd:session): session closed for user user1
+Oct  2 11:05:01 ubuntu sshd[2010]: Accepted password for user2 from 192.168.0.13 port 12345 ssh2
+Oct  2 11:05:01 ubuntu sshd[2010]: pam_unix(sshd:session): session opened for user user2 by (uid=0)
+Oct  2 11:30:15 ubuntu sshd[2010]: pam_unix(sshd:session): session closed for user user2
+Oct  2 13:45:01 ubuntu sshd[2022]: Accepted password for user1 from 192.168.0.15 port 54321 ssh2
+Oct  2 13:45:01 ubuntu sshd[2022]: pam_unix(sshd:session): session opened for user user1 by (uid=0)
+Oct  2 14:10:45 ubuntu sshd[2022]: pam_unix(sshd:session): session closed for user user1
+Oct  2 15:01:22 ubuntu sshd[2035]: Accepted password for user2 from 192.168.0.16 port 12345 ssh2
+Oct  2 15:01:22 ubuntu sshd[2035]: pam_unix(sshd:session): session opened for user user2 by (uid=0)
+Oct  2 16:20:12 ubuntu sshd[2035]: pam_unix(sshd:session): session closed for user user2
+Oct  2 17:45:55 ubuntu sshd[2044]: Accepted password for user3 from 192.168.0.18 port 22222 ssh2
+Oct  2 17:45:55 ubuntu sshd[2044]: pam_unix(sshd:session): session opened for user user3 by (uid=0)
+Oct  2 18:30:15 ubuntu sshd[2044]: pam_unix(sshd:session): session closed for user user3
+Oct  2 19:15:35 ubuntu sshd[2051]: Accepted password for user4 from 192.168.0.19 port 22345 ssh2
+Oct  2 19:15:35 ubuntu sshd[2051]: pam_unix(sshd:session): session opened for user user4 by (uid=0)
+Oct  2 19:50:30 ubuntu sshd[2051]: pam_unix(sshd:session): session closed for user user4
+Oct  2 21:01:01 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:05 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:08 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:10 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:15 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:20 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:23 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:25 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:29 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:33 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:35 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:39 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:42 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:45 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:48 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:50 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:52 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:55 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:01:59 ubuntu sshd[2100]: Failed password for invalid user root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:02:05 ubuntu sshd[2105]: Accepted password for root from 198.51.100.25 port 34567 ssh2
+Oct  2 21:02:10 ubuntu sshd[2105]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct  2 21:02:15 ubuntu sshd[2105]: pam_unix(sshd:session): session closed for user root

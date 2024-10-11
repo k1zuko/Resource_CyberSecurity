@@ -1,0 +1,3 @@
+base64 -d => base64 -d => caesar cipher
+
+picoCTF{caesar_d3cr9pt3d_a47c6d69}

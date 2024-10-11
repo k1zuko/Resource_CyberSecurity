@@ -1,0 +1,98 @@
+# Nmap 7.95 scan initiated Sat Sep 28 07:17:42 2024 as: nmap -p 3000,5000 -Pn -vv -sCV -T4 -oN nmap.txt 10.10.11.26
+Nmap scan report for 10.10.11.26
+Host is up, received user-set (0.35s latency).
+Scanned at 2024-09-28 07:17:55 WIB for 47s
+
+PORT     STATE SERVICE REASON  VERSION
+3000/tcp open  http    syn-ack Golang net/http server
+| http-methods: 
+|_  Supported Methods: HEAD GET
+|_http-title: Git
+| fingerprint-strings: 
+|   GenericLines, Help: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Cache-Control: max-age=0, private, must-revalidate, no-transform
+|     Content-Type: text/html; charset=utf-8
+|     Set-Cookie: i_like_gitea=478ed9ce55ef3734; Path=/; HttpOnly; SameSite=Lax
+|     Set-Cookie: _csrf=CcJR0c48H_UImKfCN31WQgZTDyQ6MTcyNzQ4MjY5NTM4MzIyODgwMA; Path=/; Max-Age=86400; HttpOnly; SameSite=Lax
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Sat, 28 Sep 2024 00:18:15 GMT
+|     <!DOCTYPE html>
+|     <html lang="en-US" class="theme-arc-green">
+|     <head>
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <title>Git</title>
+|     <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiR2l0Iiwic2hvcnRfbmFtZSI6IkdpdCIsInN0YXJ0X3VybCI6Imh0dHA6Ly9naXRlYS5jb21waWxlZC5odGI6MzAwMC8iLCJpY29ucyI6W3sic3JjIjoiaHR0cDovL2dpdGVhLmNvbXBpbGVkLmh0YjozMDAwL2Fzc2V0cy9pbWcvbG9nby5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwic2l6ZXMiOiI1MTJ4NTEyIn0seyJzcmMiOiJodHRwOi8vZ2l0ZWEuY29tcGlsZWQuaHRiOjMwMDA
+|   HTTPOptions: 
+|     HTTP/1.0 405 Method Not Allowed
+|     Allow: HEAD
+|     Allow: HEAD
+|     Allow: GET
+|     Allow: HEAD
+|     Allow: GET
+|     Allow: HEAD
+|     Allow: GET
+|     Allow: HEAD
+|     Allow: GET
+|     Allow: HEAD
+|     Allow: GET
+|     Allow: HEAD
+|     Allow: GET
+|     Allow: HEAD
+|     Allow: GET
+|     Allow: HEAD
+|     Allow: GET
+|     Cache-Control: max-age=0, private, must-revalidate, no-transform
+|     Set-Cookie: i_like_gitea=5e1f0b10ac858c7d; Path=/; HttpOnly; SameSite=Lax
+|     Set-Cookie: _csrf=mwZWHHttYwayM32zp6Ky6wLv_js6MTcyNzQ4MjY5NzAyMTYxOTQwMA; Path=/; Max-Age=86400; HttpOnly; SameSite=Lax
+|     X-Frame-Options: SAMEORIGIN
+|     Date: Sat, 28 Sep 2024 00:18:17 GMT
+|_    Content-Length: 0
+|_http-favicon: Unknown favicon MD5: F6E1A9128148EEAD9EFF823C540EF471
+5000/tcp open  http    syn-ack Werkzeug httpd 3.0.3 (Python 3.12.3)
+|_http-server-header: Werkzeug/3.0.3 Python/3.12.3
+|_http-title: Compiled - Code Compiling Services
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3000-TCP:V=7.95%I=7%D=9/28%Time=66F74B3A%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(GetRequest,3000,"HTTP/1\.0\x20200\x20OK\r\nCache-Control:
+SF:\x20max-age=0,\x20private,\x20must-revalidate,\x20no-transform\r\nConte
+SF:nt-Type:\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\x20i_like_gitea=
+SF:478ed9ce55ef3734;\x20Path=/;\x20HttpOnly;\x20SameSite=Lax\r\nSet-Cookie
+SF::\x20_csrf=CcJR0c48H_UImKfCN31WQgZTDyQ6MTcyNzQ4MjY5NTM4MzIyODgwMA;\x20P
+SF:ath=/;\x20Max-Age=86400;\x20HttpOnly;\x20SameSite=Lax\r\nX-Frame-Option
+SF:s:\x20SAMEORIGIN\r\nDate:\x20Sat,\x2028\x20Sep\x202024\x2000:18:15\x20G
+SF:MT\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en-US\"\x20class=\"theme-
+SF:arc-green\">\n<head>\n\t<meta\x20name=\"viewport\"\x20content=\"width=d
+SF:evice-width,\x20initial-scale=1\">\n\t<title>Git</title>\n\t<link\x20re
+SF:l=\"manifest\"\x20href=\"data:application/json;base64,eyJuYW1lIjoiR2l0I
+SF:iwic2hvcnRfbmFtZSI6IkdpdCIsInN0YXJ0X3VybCI6Imh0dHA6Ly9naXRlYS5jb21waWxl
+SF:ZC5odGI6MzAwMC8iLCJpY29ucyI6W3sic3JjIjoiaHR0cDovL2dpdGVhLmNvbXBpbGVkLmh
+SF:0YjozMDAwL2Fzc2V0cy9pbWcvbG9nby5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwic2l6ZX
+SF:MiOiI1MTJ4NTEyIn0seyJzcmMiOiJodHRwOi8vZ2l0ZWEuY29tcGlsZWQuaHRiOjMwMDA")
+SF:%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text
+SF:/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20R
+SF:equest")%r(HTTPOptions,253,"HTTP/1\.0\x20405\x20Method\x20Not\x20Allowe
+SF:d\r\nAllow:\x20HEAD\r\nAllow:\x20HEAD\r\nAllow:\x20GET\r\nAllow:\x20HEA
+SF:D\r\nAllow:\x20GET\r\nAllow:\x20HEAD\r\nAllow:\x20GET\r\nAllow:\x20HEAD
+SF:\r\nAllow:\x20GET\r\nAllow:\x20HEAD\r\nAllow:\x20GET\r\nAllow:\x20HEAD\
+SF:r\nAllow:\x20GET\r\nAllow:\x20HEAD\r\nAllow:\x20GET\r\nAllow:\x20HEAD\r
+SF:\nAllow:\x20GET\r\nCache-Control:\x20max-age=0,\x20private,\x20must-rev
+SF:alidate,\x20no-transform\r\nSet-Cookie:\x20i_like_gitea=5e1f0b10ac858c7
+SF:d;\x20Path=/;\x20HttpOnly;\x20SameSite=Lax\r\nSet-Cookie:\x20_csrf=mwZW
+SF:HHttYwayM32zp6Ky6wLv_js6MTcyNzQ4MjY5NzAyMTYxOTQwMA;\x20Path=/;\x20Max-A
+SF:ge=86400;\x20HttpOnly;\x20SameSite=Lax\r\nX-Frame-Options:\x20SAMEORIGI
+SF:N\r\nDate:\x20Sat,\x2028\x20Sep\x202024\x2000:18:17\x20GMT\r\nContent-L
+SF:ength:\x200\r\n\r\n");
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep 28 07:18:42 2024 -- 1 IP address (1 host up) scanned in 59.74 seconds

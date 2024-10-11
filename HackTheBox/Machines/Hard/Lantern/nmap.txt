@@ -1,0 +1,97 @@
+# Nmap 7.95 scan initiated Mon Sep 30 07:25:00 2024 as: nmap -sCV -T4 -oN nmap.txt -vv 10.10.11.29
+Nmap scan report for jsn.jaringanku (10.10.11.29)
+Host is up, received syn-ack (0.27s latency).
+Scanned at 2024-09-30 07:25:00 WIB for 62s
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE REASON  VERSION
+22/tcp   open  ssh     syn-ack OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 80:c9:47:d5:89:f8:50:83:02:5e:fe:53:30:ac:2d:0e (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGusUxyRLIhzLUjTy760PsP+hfg8+1NEQLQQfDeDRpoNyzq7OAGHksIqN1Mao6wZ7KRIU9FeeO4j3v1tygt+RgQ=
+|   256 d4:22:cf:fe:b1:00:cb:eb:6d:dc:b2:b4:64:6b:9d:89 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN9saUksNH519vji9ytatnGGy+QGBN+u+vur9+/YmVja
+80/tcp   open  http    syn-ack Golang net/http server
+| http-methods: 
+|_  Supported Methods: GET OPTIONS HEAD
+|_http-title: Did not follow redirect to http://lantern.htb/
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 404 Not Found
+|     Content-Length: 207
+|     Content-Type: text/html; charset=utf-8
+|     Date: Mon, 30 Sep 2024 00:25:29 GMT
+|     Server: Skipper Proxy
+|     <!doctype html>
+|     <html lang=en>
+|     <title>404 Not Found</title>
+|     <h1>Not Found</h1>
+|     <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+|   GenericLines, Help, LPDString, RTSPRequest, SSLSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Content-Length: 225
+|     Content-Type: text/html; charset=utf-8
+|     Date: Mon, 30 Sep 2024 00:25:27 GMT
+|     Location: http://lantern.htb/
+|     Server: Skipper Proxy
+|     <!doctype html>
+|     <html lang=en>
+|     <title>Redirecting...</title>
+|     <h1>Redirecting...</h1>
+|     <p>You should be redirected automatically to the target URL: <a href="http://lantern.htb/">http://lantern.htb/</a>. If not, click the link.
+|   HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Allow: GET, OPTIONS, HEAD
+|     Content-Length: 0
+|     Content-Type: text/html; charset=utf-8
+|     Date: Mon, 30 Sep 2024 00:25:28 GMT
+|_    Server: Skipper Proxy
+|_http-server-header: Skipper Proxy
+3000/tcp open  http    syn-ack Microsoft Kestrel httpd
+|_http-server-header: Kestrel
+|_http-trane-info: Problem with XML parsing of /evox/about
+|_http-favicon: Unknown favicon MD5: 9200225B96881264E6481C77D69C622C
+| http-methods: 
+|_  Supported Methods: GET HEAD OPTIONS
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.95%I=7%D=9/30%Time=66F9EFF4%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,18F,"HTTP/1\.0\x20302\x20Found\r\nContent-Length:\x20225\r\nCont
+SF:ent-Type:\x20text/html;\x20charset=utf-8\r\nDate:\x20Mon,\x2030\x20Sep\
+SF:x202024\x2000:25:27\x20GMT\r\nLocation:\x20http://lantern\.htb/\r\nServ
+SF:er:\x20Skipper\x20Proxy\r\n\r\n<!doctype\x20html>\n<html\x20lang=en>\n<
+SF:title>Redirecting\.\.\.</title>\n<h1>Redirecting\.\.\.</h1>\n<p>You\x20
+SF:should\x20be\x20redirected\x20automatically\x20to\x20the\x20target\x20U
+SF:RL:\x20<a\x20href=\"http://lantern\.htb/\">http://lantern\.htb/</a>\.\x
+SF:20If\x20not,\x20click\x20the\x20link\.\n")%r(HTTPOptions,A5,"HTTP/1\.0\
+SF:x20200\x20OK\r\nAllow:\x20GET,\x20OPTIONS,\x20HEAD\r\nContent-Length:\x
+SF:200\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nDate:\x20Mon,\x2
+SF:030\x20Sep\x202024\x2000:25:28\x20GMT\r\nServer:\x20Skipper\x20Proxy\r\
+SF:n\r\n")%r(RTSPRequest,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent
+SF:-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n4
+SF:00\x20Bad\x20Request")%r(FourOhFourRequest,162,"HTTP/1\.0\x20404\x20Not
+SF:\x20Found\r\nContent-Length:\x20207\r\nContent-Type:\x20text/html;\x20c
+SF:harset=utf-8\r\nDate:\x20Mon,\x2030\x20Sep\x202024\x2000:25:29\x20GMT\r
+SF:\nServer:\x20Skipper\x20Proxy\r\n\r\n<!doctype\x20html>\n<html\x20lang=
+SF:en>\n<title>404\x20Not\x20Found</title>\n<h1>Not\x20Found</h1>\n<p>The\
+SF:x20requested\x20URL\x20was\x20not\x20found\x20on\x20the\x20server\.\x20
+SF:If\x20you\x20entered\x20the\x20URL\x20manually\x20please\x20check\x20yo
+SF:ur\x20spelling\x20and\x20try\x20again\.</p>\n")%r(GenericLines,67,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20chars
+SF:et=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Help,
+SF:67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\
+SF:x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")
+SF:%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type
+SF::\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x2
+SF:0Bad\x20Request")%r(LPDString,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\
+SF:nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\
+SF:r\n\r\n400\x20Bad\x20Request");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 30 07:26:02 2024 -- 1 IP address (1 host up) scanned in 61.92 seconds
